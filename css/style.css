@@ -1,0 +1,197 @@
+/* @import "var.css"; */
+@import "global.css";
+@import "normalize.css";
+@import "header.css";
+@import "preview.css";
+@import "about.css";
+@import "contact-form.css";
+@import "footer.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  position: relative;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+img,
+svg {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+}
+
+button {
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  transition: background-color, border 0.3s;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+figure,
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+iframe {
+  border: none;
+}
+
+/*
+Доступно скрываю элементы
+*/
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+.section {
+  padding: 35px 0;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.article {
+  display: flex;
+}
+
+input {
+  outline: none;
+}
+
+.phone {
+  text-align: center;
+}
+
+.button {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.phohe-mobile {
+  display: none;
+}
+
+.phone-button:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 1px;
+  top: 19px;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.phone-link {
+  text-align: center;
+  display: block;
+}
+
+.phone-link {
+  display: block;
+}
+
+.phone-button {
+  display: block;
+  margin: 0 auto;
+}
+
+/*
+Пример контейнера
+
+Если контейнер 1180px по макету,
+то для max-width прибавляем паддинги 30px*2, 
+в итоге 1240px
+Чтобы контент не прижимался к краям экрана
+*/
+
+@media (max-width: 1050px) {
+  .header {
+    padding-top: 15px;
+  }
+
+  img,
+  svg {
+    max-width: 60px;
+    max-height: 60px;
+  }
+
+  .phone-link__text {
+    font-size: 21px;
+    line-height: 25px;
+
+  }
+
+  .phone-button {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+
+@media (max-width: 560px) {
+  .phone-button {
+    display: none;
+  }
+
+  .phone-link__text {
+    display: none;
+  }
+
+  .phohe-mobile {
+    display: block;
+  }
+
+  img,
+  svg {
+    max-width: 30px;
+    max-height: 30px;
+  }
+
+  .section {
+    padding: 30px 0;
+  }
+}
