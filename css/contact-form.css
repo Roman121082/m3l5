@@ -87,7 +87,6 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 23px;
-  padding-bottom: 35px;
   white-space: normal;
 }
 
@@ -134,7 +133,6 @@
   .contact-form__text {
     font-size: 17px;
     line-height: 20px;
-    padding-bottom: 25px;
   }
 }
 
