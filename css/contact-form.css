@@ -16,6 +16,7 @@
   font-weight: 700;
   line-height: 41px;
   margin-bottom: 17px;
+  padding-top: 35px;
 }
 
 .contact-form__subtitle {
@@ -44,7 +45,7 @@
 .contact-form__input {
   background-color: transparent;
   border-radius: 50px;
-  max-width: 425px;
+  min-width: 425px;
   color: rgba(255, 255, 255, 0.50);
   font-family: Roboto;
   font-size: 22px;

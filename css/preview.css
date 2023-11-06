@@ -9,23 +9,25 @@
 }
 
 .preview__title {
-  padding-top: 173px;
+  padding-top: 193px;
   color: rgba(255, 255, 255, 0.86);
   text-align: center;
   font-family: Roboto;
   white-space: pre-line;
   font-size: 52px;
   font-weight: 900;
+  margin-bottom: 35px;
 }
 
 .preview__subtitle {
   color: rgba(255, 255, 255, 0.75);
   text-align: center;
-  margin-bottom: 90px;
   font-family: Roboto;
   font-size: 22px;
   font-weight: 400;
   line-height: 141%;
+  max-width: 960px;
+  margin: 0 auto 90px;
 }
 
 .preview__subtitle:last-child {
@@ -59,16 +61,22 @@
 @media(max-width:1050px) {
 
   .preview__title {
-    padding-top: 138px;
+    padding-top: 121px;
     font-size: 40px;
-    line-height: 46px;
+    line-height: 47px;
     margin-bottom: 27px;
   }
 
   .preview__subtitle {
     font-size: 18px;
-    line-height: 31px;
+    line-height: 25px;
+    max-width: 754px;
+    margin-bottom: 59px;
   }
+}
+
+.preview__link-box {
+  padding-bottom: 35px;
 }
 
 @media (max-width: 560px) {

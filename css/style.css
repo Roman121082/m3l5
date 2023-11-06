@@ -154,10 +154,7 @@ input {
 Чтобы контент не прижимался к краям экрана
 */
 
-@media (max-width: 1050px) {
-  .header {
-    padding-top: 15px;
-  }
+@media(max-width: 1050px) {
 
   img,
   svg {
@@ -175,7 +172,13 @@ input {
     font-size: 13px;
     line-height: 15px;
   }
+
+  .header__logo {
+    height: 60px;
+  }
 }
+
+
 
 @media (max-width: 560px) {
   .phone-button {

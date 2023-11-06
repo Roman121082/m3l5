@@ -11,6 +11,7 @@
   z-index: 5;
 }
 
+
 .phone-link {
   display: block;
   font-family: Roboto;
@@ -33,10 +34,19 @@
   display: none;
 }
 
+.header__logo {
+  max-height: 68px;
+}
 
-@media (max-width: 1050px) {
+@media(max-width: 1050px) {
+
   .header {
-    padding-top: 15px;
+    padding: 26px 30px 0;
+    min-height: 60px;
+  }
+
+  .header__logo {
+    max-height: 60px;
   }
 
   svg {
@@ -55,7 +65,7 @@
   }
 }
 
-@media (max-width: 560px) {
+@media(max-width: 560px) {
   .phohe__mobile {
     display: block;
   }
