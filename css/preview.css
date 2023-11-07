@@ -3,8 +3,8 @@
   position: relative;
   background-image: url('../images/preview-bg.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top left;
+  background-size: contain;
+  background-position: center;
   background-color: rgba(47, 50, 75, 0.85);
 }
 
@@ -58,7 +58,7 @@
   background-color: #256c7c;
 }
 
-@media(max-width:1050px) {
+@media(max-width:1024px) {
 
   .preview__title {
     padding-top: 121px;

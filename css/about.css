@@ -88,7 +88,6 @@
   font-size: 57px;
   font-weight: 500;
   line-height: 100%;
-  z-index: 5;
   width: 122px;
   height: 122px;
   border-radius: 50%;
@@ -100,7 +99,7 @@
 }
 
 
-@media(max-width:1050px) {
+@media(max-width:1024px) {
   .about__title {
     margin-bottom: 23px;
     font-size: 32px;
@@ -113,19 +112,32 @@
     line-height: 23px;
   }
 
+  .about__subtitle::before {
+    right: 75px;
+  }
+
+  .about__subtitle::after {
+    left: 71px;
+  }
+
   .about__text {
     font-size: 16px;
     line-height: 22px;
+    max-width: 600px;
+    margin-bottom: 59px;
   }
 
   .advantage-list {
-    max-width: 480px;
+    gap: 15px;
+    max-width: 906px;
+    padding-bottom: 38px;
   }
 
   .advantage-list__item:before {
     font-size: 52px;
     width: 104px;
     height: 104px;
+    margin-bottom: 26px;
   }
 
   .advantage-list__item {

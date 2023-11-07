@@ -4,7 +4,7 @@
   background-image: url('../images/contact-form-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-color: rgba(47, 50, 75, 0.85);
 }
 
@@ -108,7 +108,7 @@
 }
 
 
-@media(max-width:1050px) {
+@media(max-width:1024px) {
   .contact-form__title {
     font-size: 32px;
     line-height: 37px;
@@ -122,18 +122,29 @@
   }
 
   .contact-form__input {
-    max-width: 480px;
+    min-width: 380px;
     font-size: 20px;
     line-height: 23px;
+    margin-bottom: 18px;
+    padding: 8px 25px;
   }
 
   .contact-form__form {
-    margin: 0 auto 30px;
+    margin: 0 auto 50px;
+  }
+
+  .contact-form {
+    padding-bottom: 57px;
+  }
+
+  .contact-form__button {
+    margin: 0 auto 31px;
   }
 
   .contact-form__text {
     font-size: 17px;
     line-height: 20px;
+    padding-bottom: 11px;
   }
 }
 

@@ -51,7 +51,7 @@
   line-height: 140.625%;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1024px) {
   .phone__link {
     font-size: 21px;
     line-height: 25px;
@@ -60,6 +60,10 @@
   .phone__button {
     font-size: 13px;
     line-height: 15px;
+  }
+
+  .footer__box {
+    padding: 45px 15px;
   }
 }
 
