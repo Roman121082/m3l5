@@ -146,17 +146,24 @@
   }
 }
 
-
+@media(max-width:1000px) {
+  .advantage-list {
+    max-width: 480px;
+  }
+}
 
 @media (max-width: 560px) {
   .about__title {
     margin-bottom: 15px;
     font-size: 20px;
     line-height: 23px;
+    padding-top: 0;
   }
 
   .advantage-list {
-    justify-content: center;
+    justify-content: space-around;
+    gap: 44px;
+    padding-bottom: 30px;
   }
 
   .about__subtitle {

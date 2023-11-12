@@ -46,17 +46,7 @@
   }
 
   .header__logo {
-    max-height: 60px;
-  }
-
-  svg {
-    max-width: 60px;
-    max-height: 60px;
-  }
-
-  .phone__link {
-    font-size: 21px;
-    line-height: 25px;
+    position: left;
   }
 
   .phone__button {
@@ -67,8 +57,21 @@
 }
 
 @media(max-width: 560px) {
-  .phohe__mobile {
+  .phone-link {}
+
+  .phohe-mobile {
     display: block;
+    width: 25px;
+    height: 24px;
+  }
+
+  .header__logo.img {
+    padding-left: 10px;
+  }
+
+  .header {
+    min-height: 0;
+    padding: 15px 15px 0;
   }
 
   svg {

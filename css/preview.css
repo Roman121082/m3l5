@@ -3,8 +3,8 @@
   position: relative;
   background-image: url('../images/preview-bg.jpg');
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
+  background-position: top top;
   background-color: rgba(47, 50, 75, 0.85);
 }
 
@@ -89,14 +89,23 @@
   }
 
   .preview__title {
-    padding-top: 65px;
+    padding-top: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
     font-size: 20px;
     line-height: 23px;
-    margin-bottom: 23px;
+    margin-bottom: 26px;
   }
 
   .preview__subtitle {
     font-size: 14px;
-    line-height: 17px;
+    line-height: 20px;
+    margin-bottom: 14px;
+  }
+
+  .preview__link {
+    padding: 9px 37px;
+    font-size: 16px;
+    line-height: 19px;
   }
 }
