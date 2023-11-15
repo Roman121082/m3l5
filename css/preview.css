@@ -3,13 +3,13 @@
   position: relative;
   background-image: url('../images/preview-bg.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top top;
+  background-size: contain;
+  background-position: center center;
   background-color: rgba(47, 50, 75, 0.85);
 }
 
 .preview__title {
-  padding-top: 193px;
+  padding-top: 228px;
   color: rgba(255, 255, 255, 0.86);
   text-align: center;
   font-family: Roboto;
@@ -36,7 +36,7 @@
 
 
 .preview__link-box {
-  padding-bottom: 85px;
+  padding-bottom: 120px;
 }
 
 .preview__link {
@@ -58,10 +58,10 @@
   background-color: #256c7c;
 }
 
-@media(max-width:1024px) {
+@media(max-width: 1024px) {
 
   .preview__title {
-    padding-top: 121px;
+    padding-top: 156px;
     font-size: 40px;
     line-height: 47px;
     margin-bottom: 27px;
@@ -73,11 +73,13 @@
     max-width: 754px;
     margin-bottom: 59px;
   }
+
+  .preview__link-box {
+    padding-bottom: 69px;
+  }
 }
 
-.preview__link-box {
-  padding-bottom: 35px;
-}
+
 
 @media (max-width: 560px) {
   section .section {
@@ -89,6 +91,7 @@
   }
 
   .preview__title {
+    white-space: pre-line;
     padding-top: 80px;
     padding-left: 15px;
     padding-right: 15px;

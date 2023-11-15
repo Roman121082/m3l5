@@ -67,6 +67,10 @@
   }
 }
 
+.footer__text-author{
+	margin-left: -12px;
+}
+
 @media (max-width: 560px) {
 
   .footer-whid {
@@ -106,10 +110,10 @@
     justify-content: center;
 
   }
-}
-
-
-.footer__text {
+  .footer__text {
   font-size: 8px;
   line-height: 11px;
 }
+}
+
+

@@ -21,15 +21,6 @@
   line-height: 28px;
 }
 
-.phone-button {
-  position: relative;
-  color: #fff;
-  background-color: transparent;
-  border: none;
-  font-size: 16px;
-  line-height: 19px;
-}
-
 .phohe-mobile {
   display: none;
 }
@@ -67,11 +58,6 @@
 
   .header__logo.img {
     padding-left: 10px;
-  }
-
-  .header {
-    min-height: 0;
-    padding: 15px 15px 0;
   }
 
   svg {

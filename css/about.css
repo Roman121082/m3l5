@@ -6,20 +6,20 @@
 .about__title {
   color: #383A4C;
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: 28px;
   font-family: Roboto;
   font-size: 35px;
   font-style: normal;
   font-weight: 700;
   line-height: 41px;
-  padding-top: 35px;
+  padding-top: 32px;
 }
 
 .about__subtitle {
   position: relative;
   display: inline-block;
   color: #383A4C;
-  margin-bottom: 35px;
+  margin-bottom: 33px;
   text-align: center;
   font-family: Roboto;
   font-size: 22px;
@@ -46,14 +46,14 @@
 }
 
 .about__text {
+  white-space: pre-line;
   color: #383A4C;
   text-align: center;
   font-family: Roboto;
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
-  max-width: 724px;
-  margin: 0 auto 55px;
+  margin: 0 auto 60px;
 }
 
 .advantage-list {
@@ -62,7 +62,7 @@
   flex-wrap: wrap;
   gap: 40px;
   align-items: center;
-  max-width: 950px;
+  max-width: 943px;
   margin: 0 auto;
   justify-content: space-around;
   padding-bottom: 37px;
@@ -95,7 +95,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 
@@ -104,6 +104,7 @@
     margin-bottom: 23px;
     font-size: 32px;
     line-height: 38px;
+    padding-top: 35px;
   }
 
   .about__subtitle {
@@ -122,9 +123,8 @@
 
   .about__text {
     font-size: 16px;
-    line-height: 22px;
-    max-width: 600px;
-    margin-bottom: 59px;
+    line-height: 21px;
+    margin-bottom: 63px;
   }
 
   .advantage-list {
@@ -160,14 +160,18 @@
     padding-top: 0;
   }
 
+  .contact-form__title {
+    margin-right: -17px;
+  }
+
   .advantage-list {
     justify-content: space-around;
-    gap: 44px;
+    gap: 43px;
     padding-bottom: 30px;
   }
 
   .about__subtitle {
-    margin-bottom: 26px;
+    margin-bottom: 29px;
     font-size: 16px;
     line-height: 19px;
   }

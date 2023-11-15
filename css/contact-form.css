@@ -10,8 +10,9 @@
 
 .contact-form__title {
   color: #FFF;
-  text-align: center;
   font-family: Roboto;
+  text-align: center;
+  padding-right: 21px;
   font-size: 35px;
   font-weight: 700;
   line-height: 41px;
@@ -26,7 +27,7 @@
   font-size: 22px;
   font-weight: 500;
   line-height: 26px;
-  margin-bottom: 50px;
+  margin-bottom: 49px;
 }
 
 .contact-form__form {
@@ -34,7 +35,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 50px;
+  margin-bottom: 48px;
 }
 
 .contact-form__list {
@@ -52,8 +53,8 @@
   font-weight: 400;
   line-height: 26px;
   padding: 9px 25px;
-  border: 1px solid #fff;
-  margin-bottom: 21px;
+  border: 2px solid #fff;
+  margin-bottom: 18px;
 }
 
 .contact-form__input:last-child {
@@ -62,7 +63,7 @@
 
 .contact-form__button {
   display: inline-block;
-  margin: 0 auto 50px;
+  margin: 0 auto 53px;
   color: #FFF;
   padding: 11px 38px;
   text-align: center;
@@ -82,6 +83,7 @@
 }
 
 .contact-form__text {
+  padding-bottom: 35px;
   color: #FFF;
   text-align: center;
   font-family: Roboto;
@@ -89,6 +91,7 @@
   font-weight: 400;
   line-height: 23px;
   white-space: normal;
+
 }
 
 .contact-form__link {
@@ -113,24 +116,26 @@
     font-size: 32px;
     line-height: 37px;
     margin-bottom: 16px;
+    margin-right: -13px;
   }
 
   .contact-form__subtitle {
     font-size: 20px;
     line-height: 23px;
-    margin-bottom: 50px;
+    margin-bottom: 48px;
+    margin-left: 13px;
   }
 
   .contact-form__input {
     min-width: 380px;
     font-size: 20px;
     line-height: 23px;
-    margin-bottom: 18px;
+    margin-bottom: 16px;
     padding: 8px 25px;
   }
 
   .contact-form__form {
-    margin: 0 auto 50px;
+    margin: 0 auto 49px;
   }
 
   .contact-form {
@@ -153,14 +158,16 @@
   .contact-form__title {
     font-size: 20px;
     line-height: 23px;
-    margin-bottom: 16px;
+    margin-bottom: 13px;
     padding-top: 0;
+    padding-right: 15px;
   }
 
   .contact-form__subtitle {
     font-size: 12px;
     line-height: 14px;
-    margin-bottom: 31px;
+    margin-bottom: 34px;
+    margin-left: 0;
   }
 
   .contact-form__form {
@@ -172,7 +179,7 @@
     font-size: 14px;
     line-height: 16px;
     padding: 6px 18px;
-    margin-bottom: 15px;
+    margin-bottom: 11px;
   }
 
   .contact-form__text {
@@ -186,4 +193,7 @@
     line-height: 18px;
     padding: 10px 29px;
   }
-}
+
+  .footer__box {
+    padding: 20px 0;
+  }
